@@ -19,3 +19,37 @@
   display: flex;
   align-items: center;
 }
+
+.Botao-l {
+  background-color: #007bff;
+  color: white;
+  border: solid 2px #0033ff;
+  border-radius: 5px;
+  padding: 0;
+  cursor: pointer;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+}
+
+.Botao-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.Botao-r {
+  background-color: #007bff;
+  color: white;
+  border: solid 2px #0033ff;
+  border-radius: 5px;
+  padding: 0;
+  cursor: pointer;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}

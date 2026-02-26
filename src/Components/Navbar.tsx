@@ -9,8 +9,13 @@ export default function Navbar() {
         <h1>My App</h1>
         </div>
         <div>
-        <input type="text" placeholder="Search..." />
-        <button>Search</button>
+        <button className="btn">Inicio</button>
+        <button className="btn">Servicios</button>
+        <button className="btn">Contactos</button>
+        </div>
+        <div className="Botao-group">
+        <button className="btn bg-blue-500 Botao-l">Iniciar Sesión</button>
+        <button className="btn bg-blue-500 Botao-r">Register</button>
         </div>
     </nav>
     </div>
