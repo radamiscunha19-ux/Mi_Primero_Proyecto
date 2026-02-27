@@ -1,4 +1,5 @@
 import '../StyleCss/Navbar.css'
+import {Inicio, Servicios, Contactos,Login, Register} from './Buttons';
 
 export default function Navbar() {
   return (
@@ -8,14 +9,14 @@ export default function Navbar() {
         <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Logo" className="logo" />
         <h1>My App</h1>
         </div>
-        <div>
-        <button className="btn">Inicio</button>
-        <button className="btn">Servicios</button>
-        <button className="btn">Contactos</button>
+        <div className="Botao-group">
+        <Inicio />
+        <Servicios />
+        <Contactos />
         </div>
         <div className="Botao-group">
-        <button className="btn bg-blue-500 Botao-l">Iniciar Sesión</button>
-        <button className="btn bg-blue-500 Botao-r">Register</button>
+        <Login />
+        <Register />
         </div>
     </nav>
     </div>
