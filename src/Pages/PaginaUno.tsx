@@ -1,3 +1,5 @@
+import "../StyleCss/Paginas.css";
+
 export default function PaginaUno() {
     return (
         <div>

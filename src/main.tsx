@@ -1,10 +1,18 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './Pages/App'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import AppRoutes from './routes/Routes'
+import Navbar from "./Components/Navbar";
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+const rootElement = document.getElementById('root');
+
+if (!rootElement) {
+  throw new Error('Root element not found');
+}
+
+ReactDOM.createRoot(rootElement).render(
+  <React.StrictMode>
+    <Navbar />
+    <AppRoutes />
+  </React.StrictMode>
 )

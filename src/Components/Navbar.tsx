@@ -1,5 +1,5 @@
 import '../StyleCss/Navbar.css'
-import {Inicio, Servicios, Contactos,Login, Register} from './Buttons';
+import {Login, Register} from './Buttons';
 
 export default function Navbar() {
   return (
@@ -9,10 +9,8 @@ export default function Navbar() {
         <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Logo" className="logo" />
         <h1>My App</h1>
         </div>
-        <div className="Botao-group">
-        <Inicio />
-        <Servicios />
-        <Contactos />
+        <div className="TituloNavBar">
+        <h1>Tenho Sérios Poemas Mentais</h1>
         </div>
         <div className="Botao-group">
         <Login />

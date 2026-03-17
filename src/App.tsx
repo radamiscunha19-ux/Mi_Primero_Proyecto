@@ -1,7 +1,6 @@
-import "../StyleCss/App.css";
-import Navbar from "../Components/Navbar";
 import HTMLFlipBook from "react-pageflip";
-import Page from "../Components/Page";
+import Page from "./Components/Page";
+import { Capa, Page1, Page2 } from "./Components/Pages";
 
 interface FlipBookProps {
   width: number;
@@ -20,22 +19,25 @@ const FlipBook = HTMLFlipBook as unknown as React.ComponentType<FlipBookProps>;
 export default function App() {
   return (
     <>
-      <Navbar />
       <div className="book-container">
         <FlipBook
           width={300}
-          height={350}
+          height={360}
           size="stretch"
           minWidth={100}
           maxWidth={500}
           minHeight={150}
-          maxHeight={600}
+          maxHeight={610}
           showCover={true}
         >
-          <Page>Capa</Page>
-          <Page>Página 1</Page>
-          <Page>Página 2</Page>
-          <Page>Página 3</Page>
+          <Page>
+            <Capa />
+          </Page>
+          <Page><Page1 /></Page>
+          <Page><Page2 /></Page>
+          <Page>Pagina3</Page>
+          <Page>Pagina4</Page>
+          <Page>Pagina5</Page>
           <Page>Contracapa</Page>
         </FlipBook>
       </div>
