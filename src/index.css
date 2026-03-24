@@ -1,9 +1,16 @@
 @import "tailwindcss";
 
 .book-container {
+  background-image: url("./Img/FundoPrincipal.png");
+  background-size: cover;
+  height: 185vh;
+}
+
+.container-book {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  align-items: center;
+  height: 100vh;
 }
 
 .page {
@@ -23,22 +30,4 @@
   cursor: pointer;
 }
 
-#next {
-  margin-top: 0.2em;
-  padding: 0.5em 1em;
-  width: 6em;
-  height: 6em;
-}
-#prev {
-  margin-top: 0.2em;
-  padding: 0.5em 1em;
-  width: 6em;
-  height: 6em;
-}
-
-.botNextPrev {
-  display: flex;
-  gap: 0.3em;
-  justify-content: center;
-}
 

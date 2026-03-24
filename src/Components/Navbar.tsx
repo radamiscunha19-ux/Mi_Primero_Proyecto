@@ -1,22 +1,32 @@
-import '../StyleCss/Navbar.css'
-import {Login, Register} from './Buttons';
+import "../StyleCss/Navbar.css";
+import { Login, Register } from "./Buttons";
 
 export default function Navbar() {
   return (
-    <div className="container">
-    <nav className="BarraNave"> 
-        <div className="d-logo"> 
-        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Logo" className="logo" />
-        <h1>My App</h1>
+    <div>
+      <nav className="BarraNave">
+        <div className="d-logo">
+          <a href="/">
+          <button type="button"  className="BotaoHome">
+          <div className="book">
+            <div className="book__pg-shadow"></div>
+            <div className="book__pg">♥</div>
+            <div className="book__pg book__pg--2">♥</div>
+            <div className="book__pg book__pg--3">♥</div>
+            <div className="book__pg book__pg--4">♥</div>
+            <div className="book__pg book__pg--5">♥</div>
+          </div>
+          <div className="Home">Home</div></button>
+          </a>
         </div>
         <div className="TituloNavBar">
-        <h1>Tenho Sérios Poemas Mentais</h1>
+          <h1>Milionário Dos Sonhos</h1>
         </div>
         <div className="Botao-group">
-        <Login />
-        <Register />
+          <Login />
+          <Register />
         </div>
-    </nav>
+      </nav>
     </div>
-  )
-};
+  );
+}

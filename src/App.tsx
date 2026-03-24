@@ -1,6 +1,6 @@
 import HTMLFlipBook from "react-pageflip";
 import Page from "./Components/Page";
-import { Capa, Page1, Page2 } from "./Components/Pages";
+import { Capa, Page1, Page2, Page3, ContraCapa } from "./Components/Pages";
 
 interface FlipBookProps {
   width: number;
@@ -18,8 +18,8 @@ const FlipBook = HTMLFlipBook as unknown as React.ComponentType<FlipBookProps>;
 
 export default function App() {
   return (
-    <>
-      <div className="book-container">
+    <div className="book-container">
+      <div className="container-book">
         <FlipBook
           width={300}
           height={360}
@@ -30,17 +30,15 @@ export default function App() {
           maxHeight={610}
           showCover={true}
         >
-          <Page>
-            <Capa />
-          </Page>
+          <Page><Capa /></Page>
           <Page><Page1 /></Page>
           <Page><Page2 /></Page>
-          <Page>Pagina3</Page>
+          <Page><Page3 /></Page>
           <Page>Pagina4</Page>
           <Page>Pagina5</Page>
-          <Page>Contracapa</Page>
+          <Page><ContraCapa /></Page>
         </FlipBook>
       </div>
-    </>
+    </div>
   );
 }

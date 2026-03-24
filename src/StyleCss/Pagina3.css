@@ -1,0 +1,65 @@
+/* Pagina3 */
+
+.content3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250vh;
+  background-image: url("../Img/Fundo3.jpg");
+  background-size: cover;
+}
+.Poema3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 1300px;
+  height: 1700px;
+  margin-top: -90px;
+  
+
+  background-image: url("../Img/PapelPoesia3.png");
+  background-size: cover;
+  background-position: center;
+
+  padding: 100px;
+  text-align: center;
+}
+
+.Poema3 h1 {
+  font-size: 80px;
+  font-family: "FonteTitulo2";
+  color: #000000;
+  text-align: center;
+  margin: 10px;
+  margin-top: 220px;
+  margin-bottom: 25px;
+}
+
+.Poema3 p {
+  font-size: 26px;
+  font-family: "FontePoema3";
+  color: #000000;
+  text-align: justify;
+  line-height: 1;
+  margin: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.Poema3 h5 {
+  font-size: 30px;
+  color: #000000;
+  text-align: justify;
+  line-height: 2;
+  font-family: "AsmelinaHarley";
+}
+
+.Assinatura3 {
+  position: absolute;
+  bottom: 520px;
+  right: 320px;
+  font-weight: bold;
+  color: #000000;
+}

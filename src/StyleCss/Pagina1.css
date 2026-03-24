@@ -1,0 +1,91 @@
+/* Pagina1 */
+@font-face {
+    font-family: "FontePoema3";
+    src: url("../Fonts/CygnetRound.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "AsmelinaHarley";
+    src: url("../Fonts/AsmelinaHarley.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FonteTitulo2";
+  src: url("../Fonts/BirdsOfParadise.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poema2";
+    src: url("../Fonts/Angelface.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "FonteTitulo1";
+  src: url("../Fonts/BLACKR.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "FontePoema1";
+  src: url("../Fonts/CACPINAF.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "FinesHerbes";
+  src: url("../Fonts/FinesHerbes.ttf") format("truetype");
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 170vh;
+  background-image: url("../Img/Fundo1.jpeg");
+  background-size: cover;
+}
+.Poema {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 1020px;
+  height: 1100px;
+  margin-top: -70px;
+
+  background-image: url("../Img/PapelPoesia1.png");
+  background-size: cover;
+  background-position: center;
+
+  padding: 50px;
+  text-align: center;
+}
+
+.Poema h1 {
+  font-size: 65px;
+  font-family: "FonteTitulo1";
+  color: #000000;
+  text-align: center;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Poema p {
+  font-size: 35px;
+  font-family: "FontePoema1";
+  color: #000000;
+  text-align: center;
+  line-height: 0.9;
+}
+
+.Poema h5 {
+  font-size: 75px;
+  color: #000000;
+  text-align: justify;
+  line-height: 1.5;
+  font-family: "FinesHerbes";
+  font-weight: bold;
+}
+
+

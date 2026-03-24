@@ -1,9 +1,9 @@
-import "../StyleCss/Pagina2.css";
+import "../StyleCss/Pagina4.css";
 
-export default function PaginaDos() {
+export default function PaginaCuatro() {
   return (
-    <div className="content2">
-      <div className="Poema2">
+    <div className="content4">
+      <div className="Poema4">
         <h1>Pelas Vielas</h1>
 
         <p>Se eu bebo? Sim, eu bebo...</p>
@@ -43,7 +43,7 @@ export default function PaginaDos() {
         <p>Continuo te esquecendo,</p>
         <p>E não sei onde vou parar,</p>
         <p>Mas, como qualquer ressaca, sei que um dia isso vai acabar.</p>
-        <h5 className="Assinatura2">Rádamis Keoma - 140620180118</h5>
+        <h5 className="Assinatura4">Rádamis Keoma - 140620180118</h5>
       </div>
     </div>
   );
