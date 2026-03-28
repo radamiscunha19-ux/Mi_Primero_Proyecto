@@ -38,6 +38,16 @@ export function Page3() {
   );
 }
 
+export function Page4() {
+  return (
+    <div>
+      <Link to="/Page4">
+        <img className="TamanhoImg" src="Poesia_4.png" alt="Poesia" />
+      </Link>
+    </div>
+  );
+}
+
 export function ContraCapa() {
   return (
     <div>

@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: "BotaoHome";
-    src: url("../Fonts/HARRYP.TTF") format("truetype");
+    src: url("../Fonts/HARRYP.ttf") format("truetype");
 }
 .BarraNave {
   display: flex;

@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Titulo4";
+  src: url("../Fonts/LittleLordFontleroy.woff") format("truetype");
+}
+
+.content4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 163vh;
+  background-image: url("../Img/fundo4.png");
+  background-size: cover;
+}
+.Poema4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 1010px;
+  height: 1100px;
+  margin-top: 0px;
+
+  background-image: url("../Img/PapelPoesia4.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 70%;
+
+  padding: 130px;
+  text-align: center;
+}
+
+.Poema4 h1 {
+  font-size: 80px;
+  font-family: "Titulo4";
+  color: #000000;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.Poema4 p {
+  font-size: 25.5px;
+  font-family: "FontePoema4";
+  color: #6204f9;
+  text-shadow: -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  text-align: center;
+  line-height: 1.3;
+  width: 570px;
+}
+
+.Poema4 h5 {
+  font-size: 30px;
+  color: #000000;
+  text-align: justify;
+  line-height: 2;
+  font-family: "Assinatura4";
+}

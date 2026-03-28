@@ -43,7 +43,7 @@ export default function PaginaDos() {
         <p>Continuo te esquecendo,</p>
         <p>E não sei onde vou parar,</p>
         <p>Mas, como qualquer ressaca, sei que um dia isso vai acabar.</p>
-        <h5 className="Assinatura2">Rádamis Keoma - 140620180118</h5>
+        <h5>Rádamis Keoma - 140620180118</h5>
       </div>
     </div>
   );

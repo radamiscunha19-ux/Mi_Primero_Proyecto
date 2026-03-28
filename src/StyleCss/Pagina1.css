@@ -16,12 +16,12 @@
 
 @font-face {
     font-family: "Poema2";
-    src: url("../Fonts/Angelface.otf") format("truetype");
+    src: url("../Fonts/AGentleTouch.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "FonteTitulo1";
-  src: url("../Fonts/BLACKR.TTF") format("truetype");
+  src: url("../Fonts/BLACKR.ttf") format("truetype");
 }
 
 @font-face {
@@ -33,6 +33,18 @@
   font-family: "FinesHerbes";
   src: url("../Fonts/FinesHerbes.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "FontePoema4";
+  src: url("../Fonts/ConeriaScript.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Assinatura4";
+  src: url("../Fonts/Abitsketchy.ttf") format("truetype");
+}
+
+
 
 
 .content {
