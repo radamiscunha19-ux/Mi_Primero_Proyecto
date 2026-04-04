@@ -20,7 +20,7 @@ export default function Navbar() {
           </a>
         </div>
         <div className="TituloNavBar">
-          <h1>Milionário Dos Sonhos</h1>
+          <h1>Biblioteca De Sentimentos</h1>
         </div>
         <div className="Botao-group">
           <Login />

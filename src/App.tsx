@@ -1,6 +1,6 @@
 import HTMLFlipBook from "react-pageflip";
 import Page from "./Components/Page";
-import { Capa, Page1, Page2, Page3, Page4, ContraCapa } from "./Components/Pages";
+import { Capa, Page1, Page2, Page3, Page4, Page5, ContraCapa } from "./Components/Pages";
 
 interface FlipBookProps {
   width: number;
@@ -35,7 +35,7 @@ export default function App() {
           <Page><Page2 /></Page>
           <Page><Page3 /></Page>
           <Page><Page4 /></Page>
-          <Page>Pagina5</Page>
+          <Page><Page5 /></Page>
           <Page><ContraCapa /></Page>
         </FlipBook>
       </div>

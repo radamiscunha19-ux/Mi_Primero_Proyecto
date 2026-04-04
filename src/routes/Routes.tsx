@@ -4,6 +4,7 @@ import PaginaUno from "../Pages/PaginaUno";
 import PaginaDos from "../Pages/PaginaDos";
 import PaginaTres from "../Pages/PaginaTres";
 import PaginaCuatro from "../Pages/PaginaCuatro";
+import PaginaCinco from "../Pages/PaginaCinco";
 
 
 export default function AppRoutes() {
@@ -15,6 +16,7 @@ export default function AppRoutes() {
         <Route path="/Page2" element={<PaginaDos />} />
         <Route path="/Page3" element={<PaginaTres />} />
         <Route path="/Page4" element={<PaginaCuatro />} />
+        <Route path="/Page5" element={<PaginaCinco />} />
       </Routes>
     </BrowserRouter>
   );
